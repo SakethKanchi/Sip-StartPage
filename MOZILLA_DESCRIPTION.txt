@@ -2,9 +2,21 @@
 
 Transform your browser's new tab into a beautiful, personalized workspace with Sip. Featuring stunning color themes, glassmorphism effects, and intelligent customization, Sip makes every new tab a delightful experience.
 
-🎉 WHAT'S NEW IN VERSION 1.5.2
+⚠️ IMPORTANT: Desktop Firefox Only
+• This extension requires the "New Tab Override" API
+• Firefox Android does not support this API
+• The extension works perfectly on desktop Firefox
+• Mobile browsers can access index.html directly as a bookmark/homepage
 
-📱 Mobile Icon Mode
+🎉 WHAT'S NEW IN VERSION 1.5.5
+
+🔧 Compatibility & Bug Fixes
+• Removed non-functional Android extension support
+• Updated description to clarify desktop-only compatibility
+• Content Security Policy optimization for reliable CDN resource loading
+• All desktop features working perfectly
+
+📱 Mobile Icon Mode (v1.5.2)
 • New mobile-only feature to display links as icons only (hide labels)
 • 4-column grid layout with larger 2rem icons
 • Perfect for saving screen space on mobile devices
@@ -25,7 +37,7 @@ Transform your browser's new tab into a beautiful, personalized workspace with S
 
 📦 VERSION 1.5.0 FEATURES
 
-📱 Full Mobile Support
+📱 Mobile Interface
 • Floating Action Button (FAB) for easy settings access
 • Touch-optimized interface with proper touch targets
 • Responsive settings modal that adapts to mobile screens
